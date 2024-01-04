@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<header>
+		<logoURL>/imagens/logo.gif</logoURL>
+		<logoDESC>Empresa XPTO</logoDESC>
+	</header>
+	<menu>
+		<item>
+			<titulo>ATEC</titulo>
+			<link>#</link>
+			<pagina>_self</pagina>
+			<icone>fa fa-fw fa-home</icone>
+		</item>
+		<item>
+			<titulo>Pesquisa</titulo>
+			<link>#</link>
+			<pagina>_blank</pagina>
+			<icone>fa fa-fw fa-search</icone>
+		</item>
+		<item>
+			<titulo>Contactos</titulo>
+			<link>#</link>
+			<pagina>_blank</pagina>
+			<icone>fa fa-fw fa-envelope</icone>
+		</item>
+		<item>
+			<titulo>Login</titulo>
+			<link>#</link>
+			<pagina>_self</pagina>
+			<icone>fa fa-fw fa-user</icone>
+		</item>
+	</menu>
+	<footer>
+		<copyright>Todos os direitos reservados @2023</copyright>
+		<redesSociais>
+			<link icon="fa fa-fw fa-facebook">http://www.facebook.com/xpto</link>
+		</redesSociais>
+	</footer>
+</info>
+
+

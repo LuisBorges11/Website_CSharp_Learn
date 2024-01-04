@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="template_dinamico.master.cs" Inherits="site.template_dinamico" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <br />
+        <asp:Xml ID="XML_header" runat="server" DocumentSource="~/info.xml" TransformSource="formata_header.xslt"></asp:Xml>
+        <br /><br />
+           
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+       <br /><br />
+        <asp:Xml ID="XML_footer" runat="server" DocumentSource="~/info.xml" TransformSource="formata_footer.xslt"></asp:Xml>
+        <br />
+    </form>
+</body>
+</html>
